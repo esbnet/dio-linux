@@ -40,13 +40,13 @@ useradd rogerio -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC
 
 ### Permissões dos diretórios
 
-- Defini proprietário:
+- Define proprietário:
 ```
 chown root:GRP_ADM /adm
 chown root:GRP_VEN /ven
 chown root:GRP_SEC /sec
 ```
-- Defini permissões de acesso às pastas:
+- Define permissões de acesso às pastas:
 ```
 chmod 770 /adm
 chmod 770 /ven
